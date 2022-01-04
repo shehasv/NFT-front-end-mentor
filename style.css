@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Outfit", Arial;
+    background-color: hsl(217, 54%, 11%);
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{
+    font-size: 10px;
+    color: hsl(215, 51%, 70%);
+}
+.card{
+    border-radius: 8px;
+    height: 350px;
+    background-color: hsl(216, 50%, 16%);
+}
+.card .image-container img {
+    margin: 14px;
+    height: 180px;
+    border-radius: 6px;
+}
+
+.card .main-content {
+    width: 160px;
+    margin: 0 14px 0 14px;
+    color: white;
+}
+
+.card .main-content p{
+    margin-top: 10px;
+}
+
+.card .price-content{
+    margin-top: 10px;
+    display: flex;
+    margin: 14px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card .price-content img{
+    margin-right: 6px;
+}
+
+.card .price-content .eth-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card .price-content .eth-content p {
+    color: hsl(178, 100%, 50%);
+}
+
+.card .price-content .time-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card .price-content .time-content p{
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
+    margin: 14px 14px 0 14px;
+    border: .5px solid hsl(215, 32%, 27%);
+}
+
+.footer-content{
+    margin: 10px 14px 0 14px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-content img {
+    border: 1px solid white;
+    border-radius: 50px;
+    margin-right: 6px;
+}
+.footer-content span{
+    color: white;
+}
